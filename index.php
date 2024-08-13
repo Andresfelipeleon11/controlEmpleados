@@ -11,6 +11,7 @@ require_once  './entorno/config.php';
     <title><?php echo TITULO_APP ?></title>
     <link rel="stylesheet" href="<?php echo CSS_URL; ?>">
     <script src="<?php echo JS_URL; ?>"></script>
+   
 
     <link rel="stylesheet" href="./public/css/login.css">
 </head>
@@ -24,7 +25,7 @@ require_once  './entorno/config.php';
                     <div class="mb-3">
                     <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24"><path fill="#000000" d="M7.5 6.5C7.5 8.981 9.519 11 12 11s4.5-2.019 4.5-4.5S14.481 2 12 2S7.5 4.019 7.5 6.5M20 21h1v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1z"/></svg>
                     
-                    <label for="usuario" class="form-label">Número de Documento:</label>
+                    <label for="usuario" class="form-label mb-3">Número de Documento:</label>
                         <input type="number" class="form-control" id="usuario" name="usuario" placeholder="Ingrese el numero de documento" required>
                     </div>
                     <div class="mb-3">
@@ -37,7 +38,6 @@ require_once  './entorno/config.php';
                     </div>
                     <div class="text-center" id="divBotonIngresar">
                         <button type="submit" id="btnIngresar" name="btnIngresar">Ingresar</button>  
-
                     </div>
                 </form>
             </div>
@@ -46,5 +46,6 @@ require_once  './entorno/config.php';
 
 
 </body>
-
+<script src="<?php echo JQUERY_URL; ?>"></script>
+<script src="./public/js/login.js"></script>
 </html>
