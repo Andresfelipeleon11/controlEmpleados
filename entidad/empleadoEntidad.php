@@ -2,7 +2,7 @@
 namespace entidad;
 
 
-class Empleado{
+class empleadoEntidad{
     private $id_empleado;
     private $nombre_empleado;
     private $apellido_empleado;
