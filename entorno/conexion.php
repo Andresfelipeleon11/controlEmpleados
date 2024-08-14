@@ -21,14 +21,17 @@ class Conexion
         }
     }
 
-    public function getMessage()
-    {
-        return $this->mensaje;
-    }
+    //Mensajes por si existe algún problema con la conexión hacia la base de datos.
+    //     public function getMessage()
+    //     {
+    //         return $this->mensaje;
+    //     }
+    // }
+
+    // Crear un objeto de la clase Conexion
+    // $conexion = new Conexion();
+
+    // Mostrar el mensaje en el servidor
+    // echo $conexion->getMessage();
+
 }
-
-// Crear un objeto de la clase Conexion
-$conexion = new Conexion();
-
-// Mostrar el mensaje en el servidor
-echo $conexion->getMessage();
