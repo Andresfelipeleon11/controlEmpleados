@@ -26,7 +26,7 @@ require_once  './entorno/config.php';
                     <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24"><path fill="#000000" d="M7.5 6.5C7.5 8.981 9.519 11 12 11s4.5-2.019 4.5-4.5S14.481 2 12 2S7.5 4.019 7.5 6.5M20 21h1v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1z"/></svg>
                     
                     <label for="usuario" class="form-label mb-3">Número de Documento:</label>
-                        <input type="number" class="form-control" id="usuario" name="usuario" placeholder="Ingrese el numero de documento" required>
+                        <input type="number" class="form-control" id="numero_documento" name="numero_documento" placeholder="Ingrese el numero de documento" required>
                     </div>
                     <div class="mb-3">
                     
@@ -37,7 +37,7 @@ require_once  './entorno/config.php';
                             id="contrasena" name="contrasena" placeholder="Ingrese la contraseña" required>
                     </div>
                     <div class="text-center" id="divBotonIngresar">
-                        <button type="submit" id="btnIngresar" name="btnIngresar">Ingresar</button>  
+                        <button id="btnIngresar" name="btnIngresar">Ingresar</button>  
                     </div>
                 </form>
             </div>
