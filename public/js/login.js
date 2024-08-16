@@ -12,17 +12,17 @@ $(document).ready(function () {
     //#Validaciones
     if (numero_documento == "") {
       alert("Por favor, ingrese su número de identificación");
-      setInterval(window.location.reload(), 2000);
+      document.querySelector("#numero_documento").value = "";
       return false;
     }
     if (numero_documento.length > 10 || numero_documento.length < 10) {
       alert("Por favor, ingrese un número de identificación válido");
-      setInterval(window.location.reload(), 2000);
+      document.querySelector("#numero_documento").value = "";
       return false;
     }
     if (contrasena == "") {
       alert("Por favor, ingrese su contraseña");
-      setInterval(window.location.reload(), 2000);
+      document.querySelector("#contrasena").value = "";
       return false;
       
     } else {
